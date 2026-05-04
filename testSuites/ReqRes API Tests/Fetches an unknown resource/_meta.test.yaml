@@ -1,0 +1,8 @@
+description: Verify successful retrieval of a resource by ID
+id: ad947792-709a-4a93-8d26-82daff64bdf3
+name: Fetches an unknown resource
+type: TESTCASE
+testSuiteId: dc8f9ca8-7832-4478-8e3b-65bdda5b5b26
+dependencies: []
+parentId: dc8f9ca8-7832-4478-8e3b-65bdda5b5b26
+testSteps: []

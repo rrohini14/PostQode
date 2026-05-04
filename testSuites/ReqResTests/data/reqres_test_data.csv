@@ -1,0 +1,16 @@
+TestCaseName,resource,id,page,per_page,username,email,password,expected_status
+Fetches an unknown resource,unknown,1,,,"","","",200
+Updates an unknown resource (PUT),unknown,2,,,"","","",200
+Updates an unknown resource (PATCH),unknown,3,,,"","","",200
+Deletes an unknown resource,unknown,4,,,"","","",204
+Fetches a resource list,unknown,,1,2,"","","",200
+Fetches a user,users,1,,,"","","",200
+Updates a user (PUT),users,2,,,"","","",200
+Updates a user (PATCH),users,3,,,"","","",200
+Deletes a user,users,4,,,"","","",204
+Fetches a user list,users,,2,,"","","",200
+Creates a session (Success),login,,,,"testuser","test@example.com","password123",200
+Creates a session (Error),login,,,,"invalid","","",400
+Creates a user (Success),register,,,,"newuser","new@example.com","password123",200
+Creates a user (Error),register,,,,"","invalid-email","",400
+Ends a session,logout,,,,,"","","",200

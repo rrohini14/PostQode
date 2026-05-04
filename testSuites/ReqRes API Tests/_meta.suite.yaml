@@ -1,0 +1,15 @@
+description: >-
+  Automated test suite for ReqRes API endpoints including resource management,
+  user operations, and authentication
+id: dc8f9ca8-7832-4478-8e3b-65bdda5b5b26
+name: ReqRes API Tests
+disabled: false
+before: []
+beforeEach: []
+testGroup: []
+testCases: []
+afterEach: []
+after: []
+runConfigs: []
+auth:
+  type: none
